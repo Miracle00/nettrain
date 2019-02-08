@@ -1,0 +1,47 @@
+pwd   --> bulunduðun dizini gösterir
+ls    --> listele
+ls -a --> gizli git ile alakalý dosyalarý gösterir
+cd    --> dizin deðiþtir
+cd .. --> bir önceki dizine döner
+
+a) git init
+	Bir dosyanýn git projesi olduðunu belirtmek için git init yazmamýz lazým
+
+b) git add .
+	Nokta bu dosya demek
+	Bu dosyayadki tüm þeyleri repo'ya ekle demek
+
+c) git commit -m "commit mesajý"
+	Repo'dan git'e yükledi
+
+d) git log
+	loglarý gösterir
+
+e) git status
+	Herhangi bir deðiþiklik olunca bilgi gösterir
+
+f) git diff
+	Yapýlan deðiþiklikleri satýr satýr gösterir
+
+g) git rm dosya.uzantý
+	Dosyayý kaldýrýr, daha sonra commit et
+
+h) git rm -r klasoradý/
+	Klasör silme
+
+i) git mv d1. d2
+	d1. adlý dosyanýn adýný d2 yaptý
+
+j) git mv dosyaadý klasör/
+	dosyayý klasöre taþý
+
+k) git checkout --dosyaadý
+	(geçiþ alanýnda) yapýlan deðiþikliði geri alýr
+
+l) git reset Head dosyadý
+	geçiþ alanýndan dosyayý getir
+	git checkout --dosyaadý
+
+m) git checkout hashcode -- .
+	istenilen versiyona geri dönme
+	nokta ise tüm dosyalarý versiyon2 deki haline dönder
