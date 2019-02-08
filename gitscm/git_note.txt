@@ -36,10 +36,10 @@ j) git mv dosyaadý klasör/
 	dosyayý klasöre taþý
 
 k) git checkout --dosyaadý
-	(geçiþ alanýnda) yapýlan deðiþikliði geri alýr
+	(çalýþma dizini) yapýlan deðiþikliði geri alýr
 
 l) git reset Head dosyadý
-	geçiþ alanýndan dosyayý getir
+	(geçiþ alanýndan) dosyayý getir
 	git checkout --dosyaadý
 
 m) git checkout hashcode -- .
