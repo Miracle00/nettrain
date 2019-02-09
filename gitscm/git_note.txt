@@ -42,6 +42,9 @@ l) git reset Head dosyadý
 	(geçiþ alanýndan) dosyayý getir
 	git checkout --dosyaadý
 
-m) git checkout hashcode -- .
+m) git checkout hashcode --.
 	istenilen versiyona geri dönme
 	nokta ise tüm dosyalarý versiyon2 deki haline dönder
+
+n) git checkout -b "branch adý"
+	yeni branch ekle ve yeni brancha geç
