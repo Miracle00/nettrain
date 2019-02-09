@@ -48,3 +48,6 @@ m) git checkout hashcode --.
 
 n) git checkout -b "branch adý"
 	yeni branch ekle ve yeni brancha geç
+
+o) git checkout branchadý 
+	istenilen brancha geçiþ yapar
