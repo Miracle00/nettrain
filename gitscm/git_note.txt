@@ -51,3 +51,6 @@ n) git checkout -b "branch adý"
 
 o) git checkout branchadý 
 	istenilen brancha geçiþ yapar
+
+p) git merge branchadý
+	o anki branch'e parametre olarak verilen branch'i birleþtirir
