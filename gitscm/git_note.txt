@@ -54,3 +54,7 @@ o) git checkout branchadý
 
 p) git merge branchadý
 	o anki branch'e parametre olarak verilen branch'i birleþtirir
+
+r) git push -u origin master
+	uzaktaki repo ya gönder
+	-u origin ve master ý hatýrla demek
