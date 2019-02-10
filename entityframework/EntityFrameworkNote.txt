@@ -1,0 +1,2 @@
+var categories = db.Categories.Tolist(); //Immediate Mode X EagerLoading
+var categories = db.Categories //Deffered Mode X LazyLoading
