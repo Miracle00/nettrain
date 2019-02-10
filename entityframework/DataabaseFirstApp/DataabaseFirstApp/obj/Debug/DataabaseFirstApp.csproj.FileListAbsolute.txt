@@ -1,0 +1,13 @@
+C:\Users\TOSHIBAPC\Desktop\nettrain\entityframework\DataabaseFirstApp\DataabaseFirstApp\bin\Debug\DataabaseFirstApp.exe.config
+C:\Users\TOSHIBAPC\Desktop\nettrain\entityframework\DataabaseFirstApp\DataabaseFirstApp\bin\Debug\DataabaseFirstApp.exe
+C:\Users\TOSHIBAPC\Desktop\nettrain\entityframework\DataabaseFirstApp\DataabaseFirstApp\bin\Debug\DataabaseFirstApp.pdb
+C:\Users\TOSHIBAPC\Desktop\nettrain\entityframework\DataabaseFirstApp\DataabaseFirstApp\bin\Debug\EntityFramework.dll
+C:\Users\TOSHIBAPC\Desktop\nettrain\entityframework\DataabaseFirstApp\DataabaseFirstApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\TOSHIBAPC\Desktop\nettrain\entityframework\DataabaseFirstApp\DataabaseFirstApp\bin\Debug\EntityFramework.xml
+C:\Users\TOSHIBAPC\Desktop\nettrain\entityframework\DataabaseFirstApp\DataabaseFirstApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\TOSHIBAPC\Desktop\nettrain\entityframework\DataabaseFirstApp\DataabaseFirstApp\obj\Debug\DataabaseFirstApp.csprojAssemblyReference.cache
+C:\Users\TOSHIBAPC\Desktop\nettrain\entityframework\DataabaseFirstApp\DataabaseFirstApp\obj\Debug\DataabaseFirstApp.csproj.CoreCompileInputs.cache
+C:\Users\TOSHIBAPC\Desktop\nettrain\entityframework\DataabaseFirstApp\DataabaseFirstApp\obj\Debug\DataabaseFirstApp.csproj.CopyComplete
+C:\Users\TOSHIBAPC\Desktop\nettrain\entityframework\DataabaseFirstApp\DataabaseFirstApp\obj\Debug\DataabaseFirstApp.exe
+C:\Users\TOSHIBAPC\Desktop\nettrain\entityframework\DataabaseFirstApp\DataabaseFirstApp\obj\Debug\DataabaseFirstApp.pdb
+C:\Users\TOSHIBAPC\Desktop\nettrain\entityframework\DataabaseFirstApp\DataabaseFirstApp\bin\Debug\ConsoleTables.dll
