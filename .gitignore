@@ -1,1 +1,13 @@
 entityframework/DataabaseFirstApp/.vs/*
+
+entityframework/DataabaseFirstApp/DataabaseFirstApp/App.config
+entityframework/DataabaseFirstApp/DataabaseFirstApp/NorthWindModel.Context.cs
+entityframework/DataabaseFirstApp/DataabaseFirstApp/NorthWindModel.Context.tt
+entityframework/DataabaseFirstApp/DataabaseFirstApp/NorthWindModel.Designer.cs
+entityframework/DataabaseFirstApp/DataabaseFirstApp/NorthWindModel.cs
+entityframework/DataabaseFirstApp/DataabaseFirstApp/NorthWindModel.edmx
+entityframework/DataabaseFirstApp/DataabaseFirstApp/NorthWindModel.edmx.diagram
+entityframework/DataabaseFirstApp/DataabaseFirstApp/NorthWindModel.tt
+entityframework/DataabaseFirstApp/DataabaseFirstApp/obj/Debug/TempPE/
+entityframework/DataabaseFirstApp/DataabaseFirstApp/packages.config
+
