@@ -14,3 +14,9 @@ c) Migration false ise;
 	tablo eklerken add-migration CreateTeamsTable yazýyoruz ve migration kontrolü için bir sýnýf açýlýyor.
 	bunun sonucunda deðiþiklikler veritabanýna yansýtýlmýlýyor, update-database komutuda gerekiyor
 
+d) Migration da geriye gitme
+	update-migration -targetMigration:MagretionAdý
+
+e) Migration da ileri gitme
+	update-database
+
