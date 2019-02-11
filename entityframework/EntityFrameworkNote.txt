@@ -4,3 +4,7 @@ var categories = db.Categories //Deffered Mode X LazyLoading
 PM> install-package EntityFramework
 PM> enable-migrations //migrations büyük projelerde false olarak seçilmiştir. Veritabanın tamamında değişiklik yapmamak için 
 PM> update-database
+
+a) Migrations true iken yapılan değişiklik sonucu veri kaybı yaşanabilir.
+	update database -force komutu verilir ve veri kaybı yaşanır.
+
