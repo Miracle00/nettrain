@@ -1,0 +1,12 @@
+C:\Users\TOSHIBAPC\Desktop\nettrain\entityframework\FootballApplication\FootballApplication\bin\Debug\FootballApplication.exe.config
+C:\Users\TOSHIBAPC\Desktop\nettrain\entityframework\FootballApplication\FootballApplication\bin\Debug\FootballApplication.exe
+C:\Users\TOSHIBAPC\Desktop\nettrain\entityframework\FootballApplication\FootballApplication\bin\Debug\FootballApplication.pdb
+C:\Users\TOSHIBAPC\Desktop\nettrain\entityframework\FootballApplication\FootballApplication\bin\Debug\EntityFramework.dll
+C:\Users\TOSHIBAPC\Desktop\nettrain\entityframework\FootballApplication\FootballApplication\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\TOSHIBAPC\Desktop\nettrain\entityframework\FootballApplication\FootballApplication\bin\Debug\EntityFramework.xml
+C:\Users\TOSHIBAPC\Desktop\nettrain\entityframework\FootballApplication\FootballApplication\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\TOSHIBAPC\Desktop\nettrain\entityframework\FootballApplication\FootballApplication\obj\Debug\FootballApplication.csprojAssemblyReference.cache
+C:\Users\TOSHIBAPC\Desktop\nettrain\entityframework\FootballApplication\FootballApplication\obj\Debug\FootballApplication.csproj.CoreCompileInputs.cache
+C:\Users\TOSHIBAPC\Desktop\nettrain\entityframework\FootballApplication\FootballApplication\obj\Debug\FootballApplication.csproj.CopyComplete
+C:\Users\TOSHIBAPC\Desktop\nettrain\entityframework\FootballApplication\FootballApplication\obj\Debug\FootballApplication.exe
+C:\Users\TOSHIBAPC\Desktop\nettrain\entityframework\FootballApplication\FootballApplication\obj\Debug\FootballApplication.pdb

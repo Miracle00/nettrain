@@ -11,3 +11,5 @@ entityframework/DataabaseFirstApp/DataabaseFirstApp/NorthWindModel.tt
 entityframework/DataabaseFirstApp/DataabaseFirstApp/obj/Debug/TempPE/
 entityframework/DataabaseFirstApp/DataabaseFirstApp/packages.config
 
+entityframework/FootballApplication/.vs/*
+entityframework/FootballApplication/FootballApplication/App.config
