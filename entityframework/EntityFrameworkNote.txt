@@ -20,3 +20,8 @@ d) Migration da geriye gitme
 e) Migration da ileri gitme
 	update-database
 
+f) Bir alanýn boþ geçilebilir olmasý için deðiþken tipinin yanýna ? iþareti koyulmasý gerekiyor.
+	[MaxLength(50)]
+	[Column(TypeName="varchar")]
+	[Key]
+
