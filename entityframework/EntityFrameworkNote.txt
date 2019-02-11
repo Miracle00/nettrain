@@ -5,6 +5,12 @@ PM> install-package EntityFramework
 PM> enable-migrations //migrations büyük projelerde false olarak seçilmiþtir. Veritabanýn tamamýnda deðiþiklik yapmamak için 
 PM> update-database
 
-a) Migrations true iken yapýlan deðiþiklik sonucu veri kaybý yaþanabilir.
+a) Migration commit gibi bir þey
+
+b) Migrations true iken yapýlan deðiþiklik sonucu veri kaybý yaþanabilir.
 	update database -force komutu verilir ve veri kaybý yaþanýr.
+
+c) Migration false ise;
+	tablo eklerken add-migration CreateTeamsTable yazýyoruz ve migration kontrolü için bir sýnýf açýlýyor.
+	bunun sonucunda deðiþiklikler veritabanýna yansýtýlmýlýyor, update-database komutuda gerekiyor
 

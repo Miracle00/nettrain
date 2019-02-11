@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B4181F7B-BDB7-45A9-8D70-C76CB3A5F213}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>AutomaticMigrationEnable</RootNamespace>
+    <AssemblyName>AutomaticMigrationEnable</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FootballDbContext.cs" />
+    <Compile Include="Migrations\201902111313104_CreateTeamsTable.cs" />
+    <Compile Include="Migrations\201902111313104_CreateTeamsTable.Designer.cs">
+      <DependentUpon>201902111313104_CreateTeamsTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902111325431_CreatePlayersTable.cs" />
+    <Compile Include="Migrations\201902111325431_CreatePlayersTable.Designer.cs">
+      <DependentUpon>201902111325431_CreatePlayersTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902111331023_AddTeamColumnToPlayerTable.cs" />
+    <Compile Include="Migrations\201902111331023_AddTeamColumnToPlayerTable.Designer.cs">
+      <DependentUpon>201902111331023_AddTeamColumnToPlayerTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902111345367_CreatePlayerAddressTable.cs" />
+    <Compile Include="Migrations\201902111345367_CreatePlayerAddressTable.Designer.cs">
+      <DependentUpon>201902111345367_CreatePlayerAddressTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902111349506_CreateSponsorTable.cs" />
+    <Compile Include="Migrations\201902111349506_CreateSponsorTable.Designer.cs">
+      <DependentUpon>201902111349506_CreateSponsorTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902111356508_RenameAdToNameInTeamsTable.cs" />
+    <Compile Include="Migrations\201902111356508_RenameAdToNameInTeamsTable.Designer.cs">
+      <DependentUpon>201902111356508_RenameAdToNameInTeamsTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="PlayerAddress.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sponsor.cs" />
+    <Compile Include="Team.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201902111313104_CreateTeamsTable.resx">
+      <DependentUpon>201902111313104_CreateTeamsTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902111325431_CreatePlayersTable.resx">
+      <DependentUpon>201902111325431_CreatePlayersTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902111331023_AddTeamColumnToPlayerTable.resx">
+      <DependentUpon>201902111331023_AddTeamColumnToPlayerTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902111345367_CreatePlayerAddressTable.resx">
+      <DependentUpon>201902111345367_CreatePlayerAddressTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902111349506_CreateSponsorTable.resx">
+      <DependentUpon>201902111349506_CreateSponsorTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902111356508_RenameAdToNameInTeamsTable.resx">
+      <DependentUpon>201902111356508_RenameAdToNameInTeamsTable.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

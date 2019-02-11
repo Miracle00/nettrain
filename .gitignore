@@ -13,3 +13,6 @@ entityframework/DataabaseFirstApp/DataabaseFirstApp/packages.config
 
 entityframework/FootballApplication/.vs/*
 entityframework/FootballApplication/FootballApplication/App.config
+
+entityframework/AutomaticMigrationEnable/.vs/*
+entityframework/AutomaticMigrationEnable/AutomaticMigrationEnable/App.config
