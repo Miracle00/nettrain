@@ -50,6 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Country.cs" />
     <Compile Include="FootballDbContext.cs" />
     <Compile Include="Migrations\201902111313104_CreateTeamsTable.cs" />
     <Compile Include="Migrations\201902111313104_CreateTeamsTable.Designer.cs">
@@ -74,6 +75,30 @@
     <Compile Include="Migrations\201902111356508_RenameAdToNameInTeamsTable.cs" />
     <Compile Include="Migrations\201902111356508_RenameAdToNameInTeamsTable.Designer.cs">
       <DependentUpon>201902111356508_RenameAdToNameInTeamsTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902111416195_CreateCountriesTable.cs" />
+    <Compile Include="Migrations\201902111416195_CreateCountriesTable.Designer.cs">
+      <DependentUpon>201902111416195_CreateCountriesTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902111423036_CreateCountryColumnInTeamsTable.cs" />
+    <Compile Include="Migrations\201902111423036_CreateCountryColumnInTeamsTable.Designer.cs">
+      <DependentUpon>201902111423036_CreateCountryColumnInTeamsTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902111436323_CreateNufusolumnInCountriesTable.cs" />
+    <Compile Include="Migrations\201902111436323_CreateNufusolumnInCountriesTable.Designer.cs">
+      <DependentUpon>201902111436323_CreateNufusolumnInCountriesTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902111443133_RenameNufusToPopulatiınInCountryTable.cs" />
+    <Compile Include="Migrations\201902111443133_RenameNufusToPopulatiınInCountryTable.Designer.cs">
+      <DependentUpon>201902111443133_RenameNufusToPopulatiınInCountryTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902111448177_DeletePopulationColumnInCountry.cs" />
+    <Compile Include="Migrations\201902111448177_DeletePopulationColumnInCountry.Designer.cs">
+      <DependentUpon>201902111448177_DeletePopulationColumnInCountry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902111452313_DeleteCountriesTable.cs" />
+    <Compile Include="Migrations\201902111452313_DeleteCountriesTable.Designer.cs">
+      <DependentUpon>201902111452313_DeleteCountriesTable.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Player.cs" />
@@ -105,6 +130,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201902111356508_RenameAdToNameInTeamsTable.resx">
       <DependentUpon>201902111356508_RenameAdToNameInTeamsTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902111416195_CreateCountriesTable.resx">
+      <DependentUpon>201902111416195_CreateCountriesTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902111423036_CreateCountryColumnInTeamsTable.resx">
+      <DependentUpon>201902111423036_CreateCountryColumnInTeamsTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902111436323_CreateNufusolumnInCountriesTable.resx">
+      <DependentUpon>201902111436323_CreateNufusolumnInCountriesTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902111443133_RenameNufusToPopulatiınInCountryTable.resx">
+      <DependentUpon>201902111443133_RenameNufusToPopulatiınInCountryTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902111448177_DeletePopulationColumnInCountry.resx">
+      <DependentUpon>201902111448177_DeletePopulationColumnInCountry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902111452313_DeleteCountriesTable.resx">
+      <DependentUpon>201902111452313_DeleteCountriesTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

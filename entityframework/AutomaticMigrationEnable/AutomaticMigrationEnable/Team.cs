@@ -8,6 +8,6 @@ namespace AutomaticMigrationEnable
         public string Name { get; set; }
         public short Kurulusyili { get; set; }
         public ICollection<Player> Players { get; set; }
-        public ICollection<Sponsor> Sponsors { get; set; }
+        public ICollection<Sponsor> Sponsors { get; set; }        
     }
 }
