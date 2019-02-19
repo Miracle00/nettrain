@@ -16,3 +16,7 @@ entityframework/FootballApplication/FootballApplication/App.config
 
 entityframework/AutomaticMigrationEnable/.vs/*
 entityframework/AutomaticMigrationEnable/AutomaticMigrationEnable/App.config
+
+webapi/ProgrammingApp/.vs/*
+webapi/ProgrammingApp/Programming.DAL/App.Config
+webapi/ProgrammingApp/Programming.API/Web.config
