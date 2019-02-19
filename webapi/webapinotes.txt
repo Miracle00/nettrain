@@ -1,0 +1,9 @@
+a) CORS hatasý veriyorsa domainler uyuþmuyor demektir.
+nuget ten microsoft.aspnet.webapi.cors kurulur.
+webapi.config içine config.enablecors(); yazýlýr
+böylece cors u etkinleþtirdik.
+
+controller ýn baþýna
+
+[EnableCors("*","*","*")] yazýlýr.
+*'lar, tüm origin,tüm header,tüm method
