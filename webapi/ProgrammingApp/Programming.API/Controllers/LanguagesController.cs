@@ -11,25 +11,59 @@ namespace Programming.API.Controllers
     public class LanguagesController : ApiController
     {
         LanguagesDAL languageDAL = new LanguagesDAL();
-        public IEnumerable<Languages> Get()
+        public HttpResponseMessage Get()
         {
-            return languageDAL.GetLanguages();
+            var languages = languageDAL.GetLanguages();
+            return Request.CreateResponse(HttpStatusCode.OK, languages);
         }
-        public Languages Get(int id)
+        public HttpResponseMessage Get(int id)
         {
-            return languageDAL.GetLanguagesById(id);
+            var language = languageDAL.GetLanguagesById(id);
+            if(language==null)
+            {
+                return Request.CreateResponse(HttpStatusCode.NotFound,"Kayıt Bulunamadı");
+            }
+            return Request.CreateResponse(HttpStatusCode.OK, language);
         }
-        public Languages Post(Languages language)
+        public HttpResponseMessage Post(Languages language)
         {
-            return languageDAL.CreateLanguage(language);
+            if (ModelState.IsValid)
+            {
+                var createLanguage = languageDAL.CreateLanguage(language);
+                return Request.CreateResponse(HttpStatusCode.Created, createLanguage);
+            }
+            else
+            {
+                return Request.CreateResponse(HttpStatusCode.BadRequest, ModelState);
+            }            
         }
-        public Languages Put(int id,Languages language)
+        public HttpResponseMessage Put(int id,Languages language)
         {
-            return languageDAL.UpdateLanguage(id, language);
+            if (languageDAL.IsThereAnyLanguage(id)==false)
+            {
+                return Request.CreateErrorResponse(HttpStatusCode.NotFound, "Kayıt Bulunamadı");
+            }
+            else if (ModelState.IsValid==false)
+            {
+                return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ModelState);
+            }
+            else
+            {
+                var putLanguage = languageDAL.UpdateLanguage(id, language);
+                return Request.CreateResponse(HttpStatusCode.OK, putLanguage);
+            }            
         }
-        public void Delete(int id)
+        public HttpResponseMessage Delete(int id)
         {
-            languageDAL.DeleteLanguage(id);
+            if (languageDAL.IsThereAnyLanguage(id) == false)
+            {
+                return Request.CreateErrorResponse(HttpStatusCode.NotFound, "Kayıt Bulunamadı");
+            }
+            else
+            {
+                languageDAL.DeleteLanguage(id);
+                return Request.CreateResponse(HttpStatusCode.NoContent);
+            }
         }
     }
 }

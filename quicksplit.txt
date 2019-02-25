@@ -1,0 +1,52 @@
+web.config
+
+<!-- login sayfasýna yönlendirsin diye yazýldý-->
+    <authentication mode="Forms">
+      <forms loginUrl="/Security/Login" defaultUrl="/Actual/Index" timeout="518400"></forms>
+    </authentication>
+    <!-- login sayfasýna yönlendirsin diye yazýldý-->
+    
+    <!-- Yetkilendirme için yazýldý-->
+    <roleManager enabled="true" defaultProvider="testRoleProvider">
+      <providers>
+        <add name="testRoleProvider" type="vsPhotoStudio.Protection.UserRoleProvider"/>
+      </providers>
+    </roleManager>
+    <!-- Yetkilendirme için yazýldý-->
+
+Security Cont
+ var ticket = kullanici.Id + "/" + kullanici.GrupId + "/" + kullanici.KullaniciAdi + "/" + kullanici.Sifre;
+ FormsAuthentication.SetAuthCookie(ticket, false);
+ FormsAuthentication.SignOut();
+
+string ticket = HttpContext.User.Identity.Name;
+                string[] UserTicket = ticket.Split('/');
+                int UserId = Convert.ToInt32(UserTicket[0]);
+
+
+Global Asax
+ GlobalFilters.Filters.Add(new AuthorizeAttribute());
+
+
+Security>PersonelRoleProvider.cs
+GetRolesForUser()
+
+ try
+            {
+                ms_vsStudioEntities db = new ms_vsStudioEntities();
+                string ticket = HttpContext.Current.User.Identity.Name;
+                string[] UserTicket = ticket.Split('/');
+                int id = Convert.ToInt32(UserTicket[0]);
+                var user = db.tbl_Kullanici.Find(id);
+                return new string[] { user.GrupId.ToString() };
+            }
+            catch
+            {
+                string role = "0";
+                return new string[] { role };
+            }   
+
+
+View de
+
+User.IsRole("A")
