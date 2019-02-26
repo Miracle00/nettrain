@@ -1,52 +1,32 @@
-web.config
+TryValidationModel
+ModelState.IsValid
 
-<!-- login sayfasýna yönlendirsin diye yazýldý-->
-    <authentication mode="Forms">
-      <forms loginUrl="/Security/Login" defaultUrl="/Actual/Index" timeout="518400"></forms>
-    </authentication>
-    <!-- login sayfasýna yönlendirsin diye yazýldý-->
-    
-    <!-- Yetkilendirme için yazýldý-->
-    <roleManager enabled="true" defaultProvider="testRoleProvider">
-      <providers>
-        <add name="testRoleProvider" type="vsPhotoStudio.Protection.UserRoleProvider"/>
-      </providers>
-    </roleManager>
-    <!-- Yetkilendirme için yazýldý-->
+MessageVM
+status,mesaj,link
+_Mesaj.cshtml
 
-Security Cont
- var ticket = kullanici.Id + "/" + kullanici.GrupId + "/" + kullanici.KullaniciAdi + "/" + kullanici.Sifre;
- FormsAuthentication.SetAuthCookie(ticket, false);
- FormsAuthentication.SignOut();
+custom.css
+.input-validation-error{
+ border:2px solid red;
+}
+.field-validation-error {
+color:red;
+}
 
-string ticket = HttpContext.User.Identity.Name;
-                string[] UserTicket = ticket.Split('/');
-                int UserId = Convert.ToInt32(UserTicket[0]);
+jquery.unobtrusive-ajax.min.js
+jquery.validate.min.js
+jquery.validate.unobtrusive.min.js
 
-
-Global Asax
- GlobalFilters.Filters.Add(new AuthorizeAttribute());
-
-
-Security>PersonelRoleProvider.cs
-GetRolesForUser()
-
- try
-            {
-                ms_vsStudioEntities db = new ms_vsStudioEntities();
-                string ticket = HttpContext.Current.User.Identity.Name;
-                string[] UserTicket = ticket.Split('/');
-                int id = Convert.ToInt32(UserTicket[0]);
-                var user = db.tbl_Kullanici.Find(id);
-                return new string[] { user.GrupId.ToString() };
-            }
-            catch
-            {
-                string role = "0";
-                return new string[] { role };
-            }   
-
-
-View de
-
-User.IsRole("A")
+[Display(Name="")]
+[Required(ErrorMessage = "Email is Requirde")]
+[RegularExpression(@"^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}" + @"\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\" + @".)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$",ErrorMessage="Email is not valid")]
+[StringLength(1000,Minlength=2,ErrorMessage="asdf")]
+[DataType(DataType.Date)]
+[DataType(DataType.Time)]
+[Range(2,6,ErrorMessage="En az 2 en çok 6 karakter giriniz")]
+[MaxLength(50)]
+[Column(TypeName="varchar")]
+[Key]
+[EmailAddress(ErrorMessage="format hatasý")]
+[Phone(ErrorMessage="format hatasý")]
+[Url(ErrorMessage="format hatasý")]
