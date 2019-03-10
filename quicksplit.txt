@@ -1,22 +1,3 @@
-TryValidationModel
-ModelState.IsValid
-
-MessageVM
-status,mesaj,link
-_Mesaj.cshtml
-
-custom.css
-.input-validation-error{
- border:2px solid red;
-}
-.field-validation-error {
-color:red;
-}
-
-jquery.unobtrusive-ajax.min.js
-jquery.validate.min.js
-jquery.validate.unobtrusive.min.js
-
 [Display(Name="")]
 [Required(ErrorMessage = "Email is Requirde")]
 [RegularExpression(@"^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}" + @"\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\" + @".)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$",ErrorMessage="Email is not valid")]
@@ -30,3 +11,56 @@ jquery.validate.unobtrusive.min.js
 [EmailAddress(ErrorMessage="format hatasý")]
 [Phone(ErrorMessage="format hatasý")]
 [Url(ErrorMessage="format hatasý")]
+
+
+
+string url = Request.ServerVariables["URL"];
+string[] urls = url.Split('/');
+
+
+ $('#myTable').DataTable({
+                "pageLength":50,
+                "ajax": {
+                    url: '/Albums/RefreshData',
+                    type: 'POST',
+                    contentType: 'application/json; charset=utf-8',
+                    dataType: 'json',
+                },
+                "fnInitComplete": function (oSettings, json) {
+                    $('.btnGuncelle, .btnSil, .btnUpload').tooltip();
+                },
+                "columns": [
+                    { "data": "Ad" },
+                    { "data": "KullaniciAdi" },
+                    { "data": "UcretsizSecim" },
+                    {
+                        "render": function (data, type, full, meta) {
+                            var Fiyat = (full.Fiyat).toString().replace(".", ",");
+                            return Fiyat;
+                        }
+                    },
+                    {
+                        "data":"TplmFt"
+                    },
+                    {
+                        "render": function (data, type, full, meta) {
+                            var time = eval((full.GecerlilikTarihi).replace(/\/Date\((\d+)\)\//gi, "new Date($1)")).toLocaleDateString();                           
+                            return time;
+                        }
+                    },
+                    { "data": "KayitKullaniciadi" },
+                    {
+                        "render": function (data, type, full, meta) { return '<a href=/UploadDoc/' + full.Id + '/' + mid + ' class="btn btn-xs btn-warning btnUpload text-dark"  style="margin-right:5px" title="Foto Yükle"><i class="fa fa-upload"></i></a><a class="btn btn-xs btn-info btnGuncelle" data-id=' + full.Id + ' style="margin-right:5px" title="Güncelle"><i class="fa fa-pencil-alt"></i></a><a class="btn btn-xs btn-danger btnSil" data-id=' + full.Id + ' title="Sil"><i class="fa fa-trash-alt"></i></a>'; }
+                    }
+                ],
+                "columnDefs": [{
+                        targets: 2,
+                        className: 'text-center'
+                },{
+                        targets: 3,
+                        className: 'text-right'
+                },{
+                        targets: 4,
+                        className: 'text-center'
+                }]
+            });
