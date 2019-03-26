@@ -12,17 +12,4 @@
 [Phone(ErrorMessage="format hatasý")]
 [Url(ErrorMessage="format hatasý")]
 
-accept=".jpg,.jpeg"
-
-$file = $("#filefiligran");
-                var $filePath = $.trim($file.val());
-                if ($('#cbxfiligranonay').val() == 1) {
-                    if ($filePath !== "") {
-                        var $ext = $filePath.split(".").pop().toLowerCase();
-                        var $allow = new Array("png");
-                        if ($.inArray($ext, $allow) == -1) {
-                            bootbox.alert("Filigran .png uzantýlý olmak zorundadýr!!");
-                            return;
-                        }
-                    }                    
-                }
+https://medium.com/@sawetefe/repository-pattern-ile-kendi-kütüphanenizi-tasarlayýn-d189ed0d4fad
