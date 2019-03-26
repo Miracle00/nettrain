@@ -13,3 +13,5 @@
 [Url(ErrorMessage="format hatasý")]
 
 https://medium.com/@sawetefe/repository-pattern-ile-kendi-kütüphanenizi-tasarlayýn-d189ed0d4fad
+
+https://medium.com/@enginunal/repository-ve-unit-of-work-tasarým-kalýbý-ve-uygulanmasý-9d471d617a9d
