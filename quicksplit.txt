@@ -16,36 +16,12 @@ https://medium.com/@sawetefe/repository-pattern-ile-kendi-kütüphanenizi-tasarlay
 
 https://medium.com/@enginunal/repository-ve-unit-of-work-tasarým-kalýbý-ve-uygulanmasý-9d471d617a9d
 
-public bool Gonder(string konu, string icerik)
-        {
-            MailMessage ePosta = new MailMessage();
-            ePosta.From = new MailAddress("mailadresiniz@gmail.com");//buraya kendi gmail hesabýnýz
-            //
-            ePosta.To.Add(textBox1.Text);//bura þifre unutanýn maili textboxdan çekdiniz.
-            ;
-         
-            ePosta.Subject = konu; //butonda veri tabaný çekdikden sonra aldýmýz deðer konu deðeri
-            //
-            ePosta.Body = icerik;  // buda þifremiz
-            //
-            SmtpClient smtp = new SmtpClient();
-            //
-            smtp.Credentials = new System.Net.NetworkCredential("mailadresiniz@gmail.com", "mailþifreniz");
-//kendi gmail hesabiniz var þifresi
-            smtp.Port = 587;
-            smtp.Host = "smtp.gmail.com";
-            smtp.EnableSsl = true;
-            object userState = ePosta;
-            bool kontrol = true;
-            try
-            {
-                smtp.SendAsync(ePosta, (object)ePosta);
-            }
-            catch (SmtpException ex)
-            {
-                kontrol = false;
-                System.Windows.Forms.MessageBox.Show(ex.Message, "Mail Gönderme Hatasi");
-            }
-            return kontrol;
- 
-        }
+//Upload
+
+https://www.youtube.com/watch?v=b-RDN4lF8zk
+
+https://www.youtube.com/watch?v=c4L4K7mRliM
+
+https://help.syncfusion.com/aspnetmvc-classic/uploadbox/support-for-synchronous-and-asynchronous-file-uploading
+
+https://www.syncfusion.com/aspnet-mvc-ui-controls/file-upload
