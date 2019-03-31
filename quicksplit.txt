@@ -25,3 +25,37 @@ https://www.youtube.com/watch?v=c4L4K7mRliM
 https://help.syncfusion.com/aspnetmvc-classic/uploadbox/support-for-synchronous-and-asynchronous-file-uploading
 
 https://www.syncfusion.com/aspnet-mvc-ui-controls/file-upload
+
+public ActionResult Index()
+        {
+            Task t = LoadPAsync();
+
+            return View();
+        }
+
+        private async Task LoadPAsync()
+        {
+            Debug.WriteLine(string.Format("qq->{0}", DateTime.Now.ToLongTimeString()));
+
+            var task1 = GetPAsync(3);
+            var task2 = GetPAsync(1);
+            var task3 = GetPAsync(5);
+
+            await Task.WhenAll(task1, task2, task3);
+
+            Debug.WriteLine(string.Format("ww->{0}", DateTime.Now.ToLongTimeString()));
+        }
+
+        private Task<int> GetPAsync(int v)
+        {
+            return Task.Factory.StartNew(() => GetP(v));
+        }
+
+        private int GetP(int v)
+        {
+            Response.Write(v);
+            Debug.WriteLine(v);
+            Thread.Sleep(v * 100);
+            
+            return v;
+        }
