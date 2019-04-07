@@ -21,6 +21,7 @@ webapi/ProgrammingApp/.vs/*
 webapi/ProgrammingApp/Programming.DAL/App.Config
 webapi/ProgrammingApp/Programming.API/Web.config
 
+soa/PersonnelApp/.vs/*
 soa/PersonnelApp/ConsoleApp1/.vs/*
 soa/PersonnelApp/ConsoleApp1/App.Config
 soa/PersonnelApp/PersonnelApp.Console.UI/.vs/*
