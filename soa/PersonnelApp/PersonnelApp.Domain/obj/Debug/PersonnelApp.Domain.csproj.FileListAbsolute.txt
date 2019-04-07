@@ -1,0 +1,5 @@
+F:\Çalışmalar\nettrain\soa\PersonnelApp\PersonnelApp.Domain\bin\Debug\PersonnelApp.Domain.dll
+F:\Çalışmalar\nettrain\soa\PersonnelApp\PersonnelApp.Domain\bin\Debug\PersonnelApp.Domain.pdb
+F:\Çalışmalar\nettrain\soa\PersonnelApp\PersonnelApp.Domain\obj\Debug\PersonnelApp.Domain.csproj.CoreCompileInputs.cache
+F:\Çalışmalar\nettrain\soa\PersonnelApp\PersonnelApp.Domain\obj\Debug\PersonnelApp.Domain.dll
+F:\Çalışmalar\nettrain\soa\PersonnelApp\PersonnelApp.Domain\obj\Debug\PersonnelApp.Domain.pdb

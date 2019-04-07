@@ -1,0 +1,16 @@
+F:\Çalışmalar\nettrain\soa\PersonnelApp\PersonnelApp.DAL\bin\Debug\PersonnelApp.DAL.dll.config
+F:\Çalışmalar\nettrain\soa\PersonnelApp\PersonnelApp.DAL\bin\Debug\PersonnelApp.DAL.dll
+F:\Çalışmalar\nettrain\soa\PersonnelApp\PersonnelApp.DAL\bin\Debug\PersonnelApp.DAL.pdb
+F:\Çalışmalar\nettrain\soa\PersonnelApp\PersonnelApp.DAL\bin\Debug\EntityFramework.dll
+F:\Çalışmalar\nettrain\soa\PersonnelApp\PersonnelApp.DAL\bin\Debug\EntityFramework.SqlServer.dll
+F:\Çalışmalar\nettrain\soa\PersonnelApp\PersonnelApp.DAL\bin\Debug\PersonnelApp.Domain.dll
+F:\Çalışmalar\nettrain\soa\PersonnelApp\PersonnelApp.DAL\bin\Debug\PersonnelApp.Domain.pdb
+F:\Çalışmalar\nettrain\soa\PersonnelApp\PersonnelApp.DAL\bin\Debug\EntityFramework.xml
+F:\Çalışmalar\nettrain\soa\PersonnelApp\PersonnelApp.DAL\bin\Debug\EntityFramework.SqlServer.xml
+F:\Çalışmalar\nettrain\soa\PersonnelApp\PersonnelApp.DAL\obj\Debug\PersonnelApp.DAL.csprojAssemblyReference.cache
+F:\Çalışmalar\nettrain\soa\PersonnelApp\PersonnelApp.DAL\obj\Debug\PersonnelApp.DAL.csproj.CoreCompileInputs.cache
+F:\Çalışmalar\nettrain\soa\PersonnelApp\PersonnelApp.DAL\obj\Debug\PersonnelApp.DAL.csproj.CopyComplete
+F:\Çalışmalar\nettrain\soa\PersonnelApp\PersonnelApp.DAL\obj\Debug\PersonnelApp.DAL.dll
+F:\Çalışmalar\nettrain\soa\PersonnelApp\PersonnelApp.DAL\obj\Debug\PersonnelApp.DAL.pdb
+F:\Çalışmalar\nettrain\soa\PersonnelApp\PersonnelApp.DAL\obj\Debug\PersonnelApp.DAL.Migrations.Init.resources
+F:\Çalışmalar\nettrain\soa\PersonnelApp\PersonnelApp.DAL\obj\Debug\PersonnelApp.DAL.csproj.GenerateResource.cache

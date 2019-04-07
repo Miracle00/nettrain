@@ -1,0 +1,17 @@
+F:\Çalışmalar\nettrain\soa\PersonnelApp\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+F:\Çalışmalar\nettrain\soa\PersonnelApp\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+F:\Çalışmalar\nettrain\soa\PersonnelApp\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+F:\Çalışmalar\nettrain\soa\PersonnelApp\ConsoleApp1\bin\Debug\EntityFramework.dll
+F:\Çalışmalar\nettrain\soa\PersonnelApp\ConsoleApp1\bin\Debug\EntityFramework.SqlServer.dll
+F:\Çalışmalar\nettrain\soa\PersonnelApp\ConsoleApp1\bin\Debug\PersonnelApp.DAL.dll
+F:\Çalışmalar\nettrain\soa\PersonnelApp\ConsoleApp1\bin\Debug\PersonnelApp.Domain.dll
+F:\Çalışmalar\nettrain\soa\PersonnelApp\ConsoleApp1\bin\Debug\PersonnelApp.DAL.pdb
+F:\Çalışmalar\nettrain\soa\PersonnelApp\ConsoleApp1\bin\Debug\PersonnelApp.DAL.dll.config
+F:\Çalışmalar\nettrain\soa\PersonnelApp\ConsoleApp1\bin\Debug\PersonnelApp.Domain.pdb
+F:\Çalışmalar\nettrain\soa\PersonnelApp\ConsoleApp1\bin\Debug\EntityFramework.xml
+F:\Çalışmalar\nettrain\soa\PersonnelApp\ConsoleApp1\bin\Debug\EntityFramework.SqlServer.xml
+F:\Çalışmalar\nettrain\soa\PersonnelApp\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+F:\Çalışmalar\nettrain\soa\PersonnelApp\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+F:\Çalışmalar\nettrain\soa\PersonnelApp\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
+F:\Çalışmalar\nettrain\soa\PersonnelApp\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+F:\Çalışmalar\nettrain\soa\PersonnelApp\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

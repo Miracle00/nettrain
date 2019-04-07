@@ -20,3 +20,11 @@ entityframework/AutomaticMigrationEnable/AutomaticMigrationEnable/App.config
 webapi/ProgrammingApp/.vs/*
 webapi/ProgrammingApp/Programming.DAL/App.Config
 webapi/ProgrammingApp/Programming.API/Web.config
+
+soa/PersonnelApp/ConsoleApp1/.vs/*
+soa/PersonnelApp/ConsoleApp1/App.Config
+soa/PersonnelApp/PersonnelApp.Console.UI/.vs/*
+soa/PersonnelApp/PersonnelApp.Console.UI/App.Config
+soa/PersonnelApp/PersonnelApp.DAL/.vs/*
+soa/PersonnelApp/PersonnelApp.DAL/App.Config
+soa/PersonnelApp/PersonnelApp.Domain/.vs/*

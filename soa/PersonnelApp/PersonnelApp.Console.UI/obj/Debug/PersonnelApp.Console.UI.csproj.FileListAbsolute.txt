@@ -1,0 +1,17 @@
+F:\Çalışmalar\nettrain\soa\PersonnelApp\PersonnelApp.Console.UI\bin\Debug\PersonnelApp.Console.UI.dll.config
+F:\Çalışmalar\nettrain\soa\PersonnelApp\PersonnelApp.Console.UI\bin\Debug\PersonnelApp.Console.UI.dll
+F:\Çalışmalar\nettrain\soa\PersonnelApp\PersonnelApp.Console.UI\bin\Debug\PersonnelApp.Console.UI.pdb
+F:\Çalışmalar\nettrain\soa\PersonnelApp\PersonnelApp.Console.UI\bin\Debug\EntityFramework.dll
+F:\Çalışmalar\nettrain\soa\PersonnelApp\PersonnelApp.Console.UI\bin\Debug\EntityFramework.SqlServer.dll
+F:\Çalışmalar\nettrain\soa\PersonnelApp\PersonnelApp.Console.UI\bin\Debug\PersonnelApp.DAL.dll
+F:\Çalışmalar\nettrain\soa\PersonnelApp\PersonnelApp.Console.UI\bin\Debug\PersonnelApp.Domain.dll
+F:\Çalışmalar\nettrain\soa\PersonnelApp\PersonnelApp.Console.UI\bin\Debug\PersonnelApp.DAL.pdb
+F:\Çalışmalar\nettrain\soa\PersonnelApp\PersonnelApp.Console.UI\bin\Debug\PersonnelApp.DAL.dll.config
+F:\Çalışmalar\nettrain\soa\PersonnelApp\PersonnelApp.Console.UI\bin\Debug\PersonnelApp.Domain.pdb
+F:\Çalışmalar\nettrain\soa\PersonnelApp\PersonnelApp.Console.UI\bin\Debug\EntityFramework.xml
+F:\Çalışmalar\nettrain\soa\PersonnelApp\PersonnelApp.Console.UI\bin\Debug\EntityFramework.SqlServer.xml
+F:\Çalışmalar\nettrain\soa\PersonnelApp\PersonnelApp.Console.UI\obj\Debug\PersonnelApp.Console.UI.csprojAssemblyReference.cache
+F:\Çalışmalar\nettrain\soa\PersonnelApp\PersonnelApp.Console.UI\obj\Debug\PersonnelApp.Console.UI.csproj.CoreCompileInputs.cache
+F:\Çalışmalar\nettrain\soa\PersonnelApp\PersonnelApp.Console.UI\obj\Debug\PersonnelApp.Console.UI.csproj.CopyComplete
+F:\Çalışmalar\nettrain\soa\PersonnelApp\PersonnelApp.Console.UI\obj\Debug\PersonnelApp.Console.UI.dll
+F:\Çalışmalar\nettrain\soa\PersonnelApp\PersonnelApp.Console.UI\obj\Debug\PersonnelApp.Console.UI.pdb
