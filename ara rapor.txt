@@ -1,0 +1,17 @@
+Bana verilen Otobüs iþletmesi projesini web tabanlý bir uygulama yapmaktý.
+Veritabaný, kullanýcý giriþ ekraný, kullanýcý iþlemleri, rota iþlemleri,
+ durak ve otobüs iþlemleri sayfasý yapýldý.Google map üzerinde duraklarý 
+gezen otobus animasyonu yapýldý. Repository pattern kulllanýlarak database
+iþlemleri azaltýldý ve servis odaklý mimariye geçildi.
+
+Kullanýlan teknoloji ve kütüphaneler
+
+ASP.NET MVC 5
+Entity Framework 6
+SQL Server 2017
+Google Maps
+Signal R
+Automapper
+Fluent API
+Epplus
+
