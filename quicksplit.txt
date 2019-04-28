@@ -12,10 +12,7 @@
 [Phone(ErrorMessage="format hatasý")]
 [Url(ErrorMessage="format hatasý")]
 
-https://medium.com/@sawetefe/repository-pattern-ile-kendi-kütüphanenizi-tasarlayýn-d189ed0d4fad
 
-https://medium.com/@enginunal/repository-ve-unit-of-work-tasarým-kalýbý-ve-uygulanmasý-9d471d617a9d
-
-https://www.gokhan-gokalp.com/generic-repository-ve-unit-of-work-kullanarak-basic-infrastructure-tasarlamak/
-
-https://medium.com/@mlbors/using-the-repository-pattern-with-the-entity-framework-fa4679f2139
+https://www.youtube.com/watch?v=wtH4i7CPg1M
+http://learn-automation.com/webelements-commands-in-selenium-webdriver-with-c-sharp/
+https://www.youtube.com/watch?v=877WZUanTxs
