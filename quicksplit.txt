@@ -19,10 +19,5 @@ https://www.youtube.com/watch?v=877WZUanTxs
 
 https://www.google.com.tr/search?client=opera&q=selenium+upload+image+c%23&sourceid=opera&ie=UTF-8&oe=UTF-8#kpvalbx=1
 
-            var location = System.Reflection.Assembly.GetExecutingAssembly().Location;
-            var appPath = Path.GetDirectoryName(location);
-            //var filepath = Environment.CurrentDirectory;
-            var ss = appPath.Split(new String[] { "bin" }, StringSplitOptions.None)[0];
-            //C:\Users\TOSHIBAPC\Desktop\ConsoleApp1\ConsoleApp1\myfolder\mytext.txt
-            string sss = @"myfolder\mytext.txt";            
-            var path = Path.Combine(ss, sss);
+Jenkins
+https://www.youtube.com/watch?v=oQ4Xui-Tg4o
