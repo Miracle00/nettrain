@@ -21,3 +21,8 @@ https://www.google.com.tr/search?client=opera&q=selenium+upload+image+c%23&sourc
 
 Jenkins
 https://www.youtube.com/watch?v=oQ4Xui-Tg4o
+
+http://www.frictionlesscode.com/have-continuous-integration-with-jenkins-in-30-mins/
+
+https://www.youtube.com/watch?v=iyxk1z20trQ
+https://www.youtube.com/watch?v=0opJw6w8mmY
